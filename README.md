@@ -111,18 +111,13 @@ along with this evidence that contributed to the correlation.
 
 ---
 ##✨ Key Features
-1. Threat Actor Profiles
-
+**1. Threat Actor Profiles**
 Create a unified profile containing the known indicators, aliases, and activity associated with a suspicious online identity.
-
-2. Identity Correlation
-
+**2. Identity Correlation**
 Compare multiple online identities and identify potential relationships based on common indicators.
-
-3. Indicator Extraction
-
+**3. Indicator Extraction**
 Identify useful digital indicators such as:
-
+```text
 Usernames
 Email identifiers
 Cryptocurrency addresses
@@ -130,9 +125,99 @@ Domains
 Contact identifiers
 Platform references
 Activity metadata
-4. Relationship Graph
-
+```
+**4. Relationship Graph**
 Visualize connections between different entities.
-
 along with the evidence that contributed to the correlation.
+```text
+                 Threat Actor
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+       Username      Email      Crypto
+          │           │           │
+          ▼           ▼           ▼
+       Platform    Account    Transaction
+```
+This helps investigators understand relationships that may not be obvious when examining individual records.
+**5. Correlation Scoring**
+The system assigns a correlation score based on the strength and number of matching indicators.
+**6. Evidence-Based Analysis**
+Instead of simply stating that two identities are connected, TRACE presents the indicators that contributed to the detected correlation.
+**7. Investigation Dashboard**
+A centralized dashboard provides:
+```
+Threat actor profiles
+Connected identities
+Digital indicators
+Correlation scores
+Relationship graphs
+Investigation information
+Evidence summaries
+```
+---
+##Correlation Engine
+TRACE follows a multi-indicator correlation approach.
+```
+                 Identity A
+                     │
+       ┌─────────────┼─────────────┐
+       ▼             ▼             ▼
+   Username        Email       Behaviour
+       │             │             │
+       └─────────────┼─────────────┘
+                     ▼
+             Correlation Engine
+                     │
+                     ▼
+               Evidence Score
+                     │
+                     ▼
+              Potential Link
+                     │
+                     ▼
+               Analyst Review
+```
+The correlation score is intended to support human investigation rather than automatically establish definitive attribution.
+---
+#Prototype Modules
+**Dashboard**
+Provides an overview of investigations, threat actors, indicators, and detected relationships.
+**Actor Investigation**
+Allows analysts to inspect information associated with an individual threat-actor profile.
+**Entity Correlation**
+Displays potential relationships between different identities.
+**Relationship Graph**
+Provides a visual representation of connections between entities.
+**Evidence Panel**
+Displays the indicators contributing to a potential correlation.
+**Investigation Reports**
+Provides structured investigation information that can be reviewed by analysts.
+---
+##Technology Stack
+###Frontend
+HTML5
+CSS3
+JavaScript
+###Backend
+Python
+Flask
+REST APIs
+###Database
+SQL Database
+###Data Processing
+Data normalization
+Pattern extraction
+Entity matching
+Correlation analysis
+###Visualization
+Interactive dashboards
+Relationship graphs
+Data visualization
+###Development Tools
+Visual Studio Code
+Git
+GitHub
+---
+<tech guide yaha hogi woh prototype upload hone k baad dalenge>
 ---
