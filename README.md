@@ -180,6 +180,7 @@ TRACE follows a multi-indicator correlation approach.
 ```
 
 The correlation score is intended to support human investigation rather than automatically establish definitive attribution.
+
 ---
 # Prototype Modules
 
@@ -230,6 +231,4 @@ Data visualization
 Visual Studio Code
 Git
 GitHub
----
-<tech guide yaha hogi woh prototype upload hone k baad dalenge>
 ---
