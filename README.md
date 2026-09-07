@@ -139,11 +139,15 @@ along with the evidence that contributed to the correlation.
           ▼           ▼           ▼
        Platform    Account    Transaction
 ```
+
 This helps investigators understand relationships that may not be obvious when examining individual records.
+
 **5. Correlation Scoring**
 The system assigns a correlation score based on the strength and number of matching indicators.
+
 **6. Evidence-Based Analysis**
 Instead of simply stating that two identities are connected, TRACE presents the indicators that contributed to the detected correlation.
+
 **7. Investigation Dashboard**
 A centralized dashboard provides:
 ```
