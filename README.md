@@ -81,7 +81,58 @@ Confidence Score: 87%
 ```
 along with this evidence that contributed to the correlation.
 
-### 🔄 System Workflow
-Confidence Score: 87%
+---
+# 🔄 System Workflow
+          Digital Sources
+                │
+                ▼
+        Data Collection
+                │
+                ▼
+       Data Normalization
+                │
+                ▼
+      Indicator Extraction
+                │
+                ▼
+       Entity Correlation
+                │
+                ▼
+      Relationship Graph
+                │
+                ▼
+       Correlation Score
+                │
+                ▼
+       Analyst Dashboard
+                │
+                ▼
+      Investigation Report
+
+---
+##✨ Key Features
+1. Threat Actor Profiles
+
+Create a unified profile containing the known indicators, aliases, and activity associated with a suspicious online identity.
+
+2. Identity Correlation
+
+Compare multiple online identities and identify potential relationships based on common indicators.
+
+3. Indicator Extraction
+
+Identify useful digital indicators such as:
+
+Usernames
+Email identifiers
+Cryptocurrency addresses
+Domains
+Contact identifiers
+Platform references
+Activity metadata
+4. Relationship Graph
+
+Visualize connections between different entities.
 
 along with the evidence that contributed to the correlation.
+---
