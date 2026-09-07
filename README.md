@@ -110,7 +110,7 @@ along with this evidence that contributed to the correlation.
       Investigation Report
 
 ---
-##✨ Key Features
+## ✨ Key Features
 **1. Threat Actor Profiles**
 Create a unified profile containing the known indicators, aliases, and activity associated with a suspicious online identity.
 **2. Identity Correlation**
@@ -156,7 +156,7 @@ Investigation information
 Evidence summaries
 ```
 ---
-##Correlation Engine
+## Correlation Engine
 TRACE follows a multi-indicator correlation approach.
 ```
                  Identity A
@@ -181,7 +181,7 @@ TRACE follows a multi-indicator correlation approach.
 
 The correlation score is intended to support human investigation rather than automatically establish definitive attribution.
 ---
-#Prototype Modules
+# Prototype Modules
 
 **Dashboard**
 Provides an overview of investigations, threat actors, indicators, and detected relationships.
@@ -201,32 +201,32 @@ Displays the indicators contributing to a potential correlation.
 **Investigation Reports**
 Provides structured investigation information that can be reviewed by analysts.
 ---
-##Technology Stack
+## Technology Stack
 
-###Frontend
+### Frontend
 HTML5
 CSS3
 JavaScript
 
-###Backend
+### Backend
 Python
 Flask
 REST APIs
 
-###Database
+### Database
 SQL Database
-###Data Processing
+### Data Processing
 Data normalization
 Pattern extraction
 Entity matching
 Correlation analysis
 
-###Visualization
+### Visualization
 Interactive dashboards
 Relationship graphs
 Data visualization
 
-###Development Tools
+### Development Tools
 Visual Studio Code
 Git
 GitHub
