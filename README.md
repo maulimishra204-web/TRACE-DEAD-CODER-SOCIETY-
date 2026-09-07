@@ -178,31 +178,41 @@ TRACE follows a multi-indicator correlation approach.
                      ▼
                Analyst Review
 ```
+
 The correlation score is intended to support human investigation rather than automatically establish definitive attribution.
 ---
 #Prototype Modules
+
 **Dashboard**
 Provides an overview of investigations, threat actors, indicators, and detected relationships.
+
 **Actor Investigation**
 Allows analysts to inspect information associated with an individual threat-actor profile.
+
 **Entity Correlation**
 Displays potential relationships between different identities.
+
 **Relationship Graph**
 Provides a visual representation of connections between entities.
+
 **Evidence Panel**
 Displays the indicators contributing to a potential correlation.
+
 **Investigation Reports**
 Provides structured investigation information that can be reviewed by analysts.
 ---
 ##Technology Stack
+
 ###Frontend
 HTML5
 CSS3
 JavaScript
+
 ###Backend
 Python
 Flask
 REST APIs
+
 ###Database
 SQL Database
 ###Data Processing
@@ -210,10 +220,12 @@ Data normalization
 Pattern extraction
 Entity matching
 Correlation analysis
+
 ###Visualization
 Interactive dashboards
 Relationship graphs
 Data visualization
+
 ###Development Tools
 Visual Studio Code
 Git
