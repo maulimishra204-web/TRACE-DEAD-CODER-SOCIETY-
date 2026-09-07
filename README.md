@@ -113,8 +113,10 @@ along with this evidence that contributed to the correlation.
 ## ✨ Key Features
 **1. Threat Actor Profiles**
 Create a unified profile containing the known indicators, aliases, and activity associated with a suspicious online identity.
+
 **2. Identity Correlation**
 Compare multiple online identities and identify potential relationships based on common indicators.
+
 **3. Indicator Extraction**
 Identify useful digital indicators such as:
 ```text
