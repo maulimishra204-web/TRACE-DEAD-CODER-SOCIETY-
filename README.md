@@ -201,6 +201,7 @@ Displays the indicators contributing to a potential correlation.
 
 **Investigation Reports**
 Provides structured investigation information that can be reviewed by analysts.
+
 ---
 ## Technology Stack
 
@@ -231,4 +232,5 @@ Data visualization
 Visual Studio Code
 Git
 GitHub
+
 ---
