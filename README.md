@@ -62,3 +62,26 @@ Consider a hypothetical threat actor using different identities:
 Username A → Platform 1
 Username B → Platform 2
 Username C → Marketplace
+```
+Individually, these accounts may appear unrelated.
+
+TRACE can analyze their available indicators:
+```text
+Username similarity        ✓
+Writing characteristics    ✓
+Activity timing            ✓
+Contact identifier         ✓
+Cryptocurrency address     ✓
+Platform behavior         ✓
+```
+The system can then generate an insight such as:
+```text
+Potential Correlation
+Confidence Score: 87%
+```
+along with this evidence that contributed to the correlation.
+
+### 🔄 System Workflow
+Confidence Score: 87%
+
+along with the evidence that contributed to the correlation.
